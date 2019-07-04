@@ -1,0 +1,306 @@
+﻿body {
+  
+margin-top:auto;
+margin-left:0px;
+margin-right:0px;
+}
+
+#CONTAINER{
+  width:100%;
+}
+#HEADER   {
+    width:100%;
+    height:130px;
+
+box-shadow:10px 8px 14px black;
+ 
+}
+#Header1{
+    padding-top:0px;
+    font-size:medium;
+    font-style:normal;
+    color:#211f1f;
+    font-weight:bold;
+    padding-left:5px;
+   
+   	
+ 
+}
+#Header2{
+    text-align:center;
+    padding-bottom:0px;
+   
+}
+
+#Header1 a:hover{
+       font-weight:bold;
+      color:#12cde0;
+}
+#Header1 a {
+color:white;
+text-decoration:none;
+padding-left:5px;
+}
+#MENU     {
+    width:100%;
+    height:60px;
+    background-color:#211f1f;
+    
+}
+#MENU  ul{
+    list-style:none;
+    padding:0px;
+    margin:0px;
+    
+}
+#MENU  ul li{
+    padding:20px 10px 30px 20px;
+    margin-left:50px;
+    display:inline-block;
+       color:#000000;
+       font-style:italic;
+       font-size:x-large;
+    }
+
+ #MENU ul li a:hover{
+        font-weight:bolder;
+         color:#000000;    
+        }
+
+    #MENU ul li a {
+   text-decoration:none;
+   color:#fff;
+         }
+
+
+#CONTENT  {
+    width:100%;
+ Min-height:700px;
+
+
+    
+}
+#FOOTER {
+    width:100%;
+    height:100px;
+        background-color:#211f1f;
+        padding-top:20px;
+        color:white;
+}
+#Color {
+    background-color:#ff00dc;
+}
+.col1{
+    padding-top:10px;
+    float:left;
+    width:390px;
+     padding-right:10px;
+     text-align:right;
+font-size:20px;
+font-weight:bold;
+color:#0000ff;
+}
+.col2 {
+    padding-top:10px;
+    padding-left:0px;
+font-size:15px;
+padding-right:0px;
+
+
+}
+.rows {
+    padding:8px;
+
+}
+.R1{
+    padding:6px;
+}
+.R2{
+   
+}
+.R3 {
+}
+.C1{
+    padding-top:0px;
+    float:left;
+    width:180px;
+    padding-left:90px;
+    padding-right:0px;
+font-size:20px;
+
+
+}
+.C2{
+    float:left;
+
+}
+#C3 {
+    
+
+
+}
+#Submit {
+    border: solid;
+    border-color:yellow;
+}
+#RightMenu {
+float:left;
+width:383px;
+margin-left:500px; 
+height:310px;
+border-radius:0px 0px 0px;
+margin-left:0px;
+text-align:center; 
+background-color:#fa4040; 
+}
+    #RightMenu ul {
+        list-style: none;
+        padding-top:4px;
+    }
+        #RightMenu ul li {
+            padding: 3px;
+           
+ }
+        #RightMenu ul li a:hover{
+            background-color:#ff00dc;
+            font-weight:bold;
+           
+ }
+        #RightBox2 {
+float:right;
+width:280px;
+height:744px;
+border-radius:0px 0px 0px;
+background-color:white;
+margin-top:58px;
+padding-top:10px;
+}
+#RightBox2 ul{
+    list-style:none;
+   
+}
+            #RightBox2 ul li{
+               padding:10px;
+            }
+
+.col3{
+    padding-top:10px;
+    float:left;
+    width:400px;
+     padding-right:10px;
+     text-align:right;
+font-size:20px;
+font-weight:bold;
+
+
+}
+.col4 {
+    padding-top:10px;
+    padding-left:0px;
+font-size:15px;
+padding-right:0px;
+
+
+}
+.rows1 {
+    padding:3px;
+
+}
+
+
+
+.Submit {
+    background-color:#fff; 
+    border-radius: 8px 8px 8px 8px;
+    width: 100px; 
+    font-weight: bold; 
+    height: 30px;
+}
+#feedbackMenu {
+   
+    float:right;
+    height:300px; 
+    width:250px;
+    background-color:#fa4040;
+}
+#logo{
+    padding-top:5px;
+   
+}
+#logo ul{
+    list-style:none;    
+  
+}
+ #logo ul li{
+        display:inline-block;
+        padding-left:0px;
+    }
+#Contact {
+    background-image:url(image/Contactusimage.jpg);
+    
+    height:600px;
+    margin-top:8px;
+}
+#courseLeftmenu {
+    height:400px;
+    width:240px;
+    float:left;
+     margin-top:0px;
+}
+#courseRightmenu {
+    height:600px;
+    width:230px;
+   float:right;    
+  
+}
+#courseContent {
+ min-height:590px;
+width:870px;
+    background-color: white;
+    margin-top:8px;
+    float:left;
+}
+#ContactRightmenu {
+    height:600px;
+    width:450px;
+   float:right;    
+}
+#Contactcontent {
+height:650px;
+width:800px;
+    float:left;
+    padding-top:20px;
+    padding-left:10px;
+   padding-bottom:0pc;
+}
+#Rows6{
+   padding:3px;
+}
+.c5 {
+    margin-left:50px;
+
+}
+.c6 {
+    margin-left:100px;
+}
+#CMENU     {
+    width:100%;
+    height:60px;
+   background-color:#f1ecec;
+    
+}
+#CMENU  ul{
+    list-style:none;
+    padding:0px;
+    margin:0px;
+ background-color:#f1ecec;
+    
+}
+#CMENU  ul li{
+    margin-top:50px;
+    padding:20px 10px 30px 20px;
+    margin-left:80px;
+    display:inline-block;
+     background-color:#f1ecec;
+ 
+    }

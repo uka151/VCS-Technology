@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="Admin_AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Admin Pannel</title>
+    <link href="StyleSheet2.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Container">
+    <div id="Header"><img src="../Image/logo.png"  /> 
+        <div style="float:right; padding-top:100px;padding-right:20px; font-size:x-large;font-style:italic;"><a href="../Home.aspx">LogOut</a></div>
+    </div>
+        <div id="Menu"><div id='cssmenu'>
+<ul>
+   <li><a href='AdminHome.aspx'><span>Home</span></a></li>
+   <li><a href="Registration.aspx"><span>Student Registration</span></a></li>
+   <li><a href="Manage Detail.aspx"><span>Manage Student</span></a></li>
+    <li><a href="Enquiry.aspx"><span>Enquiry Detail</span></a></li>
+    <li><a href="Fee Detail.aspx"><span>Fee Detail</span></a></li>
+    <li><a href="ReportFdetail.aspx"><span>Report Fee Detail</span></a></li>
+       <li class='last'><a href="FeedBack.aspx"><span>FeedBack Report</span></a></li>
+     <li class='last'><a href="LoginRegistration.aspx"><span>Admin UserAssign</span></a></li>
+</ul>
+</div>
+</div>
+        
+        <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="Footer" style="text-align:center;">Home | Privacy Policy | Term & Condition | YouTube Channel <br />All right Reserved &copy; www.vcs.com 2015-16<br />
+            <div style="padding:10px;padding-left:5px;">
+            <a href="www.facebook.com"> <img src="../Image/f.jpg" /></a>   
+                 <a href="www.twiter.com"><img src="../Image/t.jpg" /></a>   
+                 <a href="www.google.com"><img src="../Image/g.jpg" /></a>   
+                 <a href="www.youtube.com"><img src="../image/y.jpg" /></a>   
+                 <a href="#"><img src="../Image/l.jpg" /></a>   
+            </div></div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<head id="Head1" runat="server">
+    <title>CIMS</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="WOW Slider, Javascript Image Hover, Javascript Image Transition" />
+	<meta name="description" content="WOWSlider created with WOW Slider, a free wizard program that helps you easily generate beautiful web slideshow" />
+	<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+  	</head>
+<body>
+    <form id="form1" runat="server">
+   
+      <div>
+        <div id="CONTAINER"></div>
+        <div id="HEADER" style="background-color:#aa1818;">
+            <
+              
+           <div style="float:left; padding-top:0px; padding-left:5px;"><img src="Image/logo.png" /></div>      
+              <div id="Header1" style="padding-left:800px; padding-top:0px;">Email:visioncomputersolution@vcs.com , Phone no.011-240523
+                  <a href="Login.aspx"></a> <a href="Login.aspx"> <img src="image/login.jpg" /></a></div>
+            
+            </div>
+            <div id="MENU" style="color:#f6eeee;border:solid;box-shadow:2px 6px 6px red;">
+            <ul>
+                <li><a href="Home.aspx">Home</a></li>
+                <li><a href="AboutUs.aspx"> About Us</a></li>
+                <li><a href="course.aspx">Course</a></li>
+                 <li><a href="EnquiryForm.aspx">Enquiry</a></li>     
+                <li><a href="adminlogin.aspx">Admin</a></li>
+                <li><a href="ContactUs.aspx">Contact Us</a></li>
+           </ul>
+        </div>
+        <div id="CONTENT"><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+          
+                          </asp:ContentPlaceHolder>
+
+        </div>
+          </div>
+        <div><div id="FOOTER" style="text-align:center;">Home | Privacy Policy | Term & Condition | YouTube Channel <br />All right Reserved &copy; www.vcs.com 2015-16<br />
+            <div style="padding:10px;padding-left:5px;">
+            <a href="www.facebook.com"> <img src="Image/f.jpg" /></a>   
+                 <a href="www.twiter.com"><img src="Image/t.jpg" /></a>   
+                 <a href="www.google.com"><img src="Image/g.jpg" /></a>   
+                 <a href="www.youtube.com"><img src="image/y.jpg" /></a>   
+                 <a href="#"><img src="Image/l.jpg" /></a>   
+            </div>
+             </div>
+        </div>
+    </form>
+</body>
+
+
+
+
+
+
